@@ -1,0 +1,119 @@
+{
+  "Workflows": [
+    {
+      "Path": null,
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": null,
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Main.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "ReportPath&Sequence_1",
+        "SelectedLearningPlan&Sequence_1",
+        "LearningPlans&Sequence_1",
+        "CoursesDt&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_LearningPlan"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Academy/Academy_ExtractCourses.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "Course&Sequence_2",
+        "CoursesArray&Sequence_2",
+        "Courses&Sequence_2"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "out_CoursesDt"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Common/Report.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "DocumentsFolder&Sequence_5",
+        "CoursesDt&Sequence_5",
+        "Hours&Sequence_4",
+        "Minutes&Sequence_4",
+        "HoursStr&Sequence_3",
+        "MinutesStr&Sequence_3",
+        "Minutes&Sequence_7"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_LearningPlan",
+        "out_ReportPath",
+        "in_CoursesDt"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Academy/Academy_Login.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Academy/Academy_NavigateTo_LearningPlans.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "Courses&Sequence_2",
+        "CoursesArray&Sequence_2",
+        "Course&Sequence_2"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Academy/Academy_ExtractLearningPlanNames.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "Courses&Sequence_2",
+        "CoursesArray&Sequence_2"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "out_PlansList"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Common/GetLearningPlanChoice.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [
+        "out_SelectedLearningPlan",
+        "in_LearningPlans"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Academy/Academy_NavigateTo_SpecificLearningPlan.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "Courses&Sequence_2",
+        "CoursesArray&Sequence_2",
+        "Course&Sequence_2"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_LearningPlan"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    }
+  ]
+}

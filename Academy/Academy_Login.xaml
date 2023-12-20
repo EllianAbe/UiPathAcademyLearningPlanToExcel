@@ -1,0 +1,135 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Academy_Login" sap2010:ExpressionActivityEditor.ExpressionActivityEditor="C#" sap:VirtualizedContainerService.HintSize="1463.111111111111,795.5555555555555" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Text</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>System.Xml.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.ExtractData</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities.Models</x:String>
+      <x:String>UiPath.Shared.Activities.Business</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>AcademyLearningPlanToExcel.Core</AssemblyReference>
+      <AssemblyReference>Microsoft.CSharp</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>Microsoft.Win32.Primitives</AssemblyReference>
+      <AssemblyReference>NPOI</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Memory.Data</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Private.Xml</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.ServiceModel.Activities</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities.Design</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities.ViewModels</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Workflow</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="Academy_Login" sap:VirtualizedContainerService.HintSize="545.7777777777778,731.5555555555555" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="Use Browser Edge: RPA and AI in Automation Training | UiPath" sap:VirtualizedContainerService.HintSize="483.55555555555554,619.5555555555555" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" IsIncognito="True" OpenMode="IfNotOpen" ScopeGuid="5819da92-c517-465c-ae14-84407f0a9464" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="449.77777777777777,401.77777777777777" sap2010:WorkflowViewState.IdRef="Sequence_2">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Login/Sign Up'" sap:VirtualizedContainerService.HintSize="387.55555555555554,159.11111111111111" sap2010:WorkflowViewState.IdRef="NClick_1" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="5819da92-c517-465c-ae14-84407f0a9464" Version="V3">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="https://academy.uipath.com/" CvElementArea="2404, 198, 133, 32" CvTextArea="2421, 205, 99, 18" CvTextArgument="Login/Sign Up" CvType="Button" DesignTimeRectangle="2405, 199, 131, 29" DesignTimeScaleFactor="1.1299999952316284" ElementType="Text" FriendlyName="'Login/Sign Up'" FullSelectorArgument="&lt;webctrl class='login-btn-header' tag='A' /&gt;" FuzzySelectorArgument="&lt;webctrl class='login-btn-header' tag='A' type='' aaname='Login/Sign Up' check:innerText='Login/Sign Up' /&gt;" Guid="dd883fee-2e1c-452a-8d76-494bb5f88760" ImageBase64="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" InformativeScreenshot="7d19f0c509312a69ef2be2ea63a2546d.png" ScopeSelectorArgument="&lt;html app='msedge.exe' title='RPA and AI in Automation Training | UiPath' /&gt;" SearchSteps="FuzzySelector, Image, CV" Version="V2" Visibility="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="387.55555555555554,87.11111111111111" sap2010:WorkflowViewState.IdRef="MessageBox_1">
+              <ui:MessageBox.Text>
+                <InArgument x:TypeArguments="x:Object">
+                  <CSharpValue x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpValue`1_2">"Choose your login option, click ok after"</CSharpValue>
+                </InArgument>
+              </ui:MessageBox.Text>
+            </ui:MessageBox>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="-9, -9, 2578, 1045" BrowserType="Edge" IconBase64="iVBORw0KGgoAAAANSUhEUgAAAIYAAACGCAYAAAAYefKRAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAALiIAAC4iAari3ZIAAAXlSURBVHhe7Z3NrRQ7EEYJgRVrQiAEVm9NCIRACDcDQiAEQnghEAIhsGfz3qkrI1nddWfKbs/QA+dInxCoym7sw/z0DNevfv7z5j9jNnlSDJNFMUwaxTBpFMOkUQyTRjFMGsUwaRTDpFEMk0YxTBrFMGkUw6RRDJNmXoxXcnrYp6ftvhWjGH8y7JNiyB72STFkD/ukGLKHfVIM2cM+KYbsYZ8UQ/awT4ohe9gnxZA97JNiyB72STEeGdbzLXkfaX+0BMZTjEeDNQwRvvZr2uUb+URet/Ip6FeMR4G1e02+9Gt5Id/Ju9Y6DL2K8SiwdvFokK7phUzJQZ9iPAKs2+ftOhbzgww/rdCjGGeHNYsXmOlaFvPUhioTPZsxqlGMe8GaxYvJdC2L+d6GKkOPYpwd1uzf7RpO5G0brgT1inF2WLMVYgzd56D+3GJQ/47EwozmcxviLiTzl9LaL9Jq07UcyB8nRtzMSce5ktKiryKZv5TWfhHqFGML9Yrx8l3OkQy9ZaVeMVaQzF9Ka78IdR+3fYP51oYqQ49irCCZv5TWfhVq4xZ3OkYhH9swZehRjBUk85fS2q9C7YdtbzFT60CfYqwgmb+U1l6C+tGnlPhsZepTVvoUYwXJ/KW09jL0xHpUnlZiY6c/em/92bjXohg9yfyltPZh6I11ic3r74vER/LxqHLouxgBYyjGCpL5S2ntp4NrU4wVJPOX0tpPB9emGCtI5i+ltZ8Ork0xVpDMX0prPx1cm2KsIJm/lNZ+Org2xVhBMn8prf10cG2KsYJk/lJa+1Woves60KcYK0jmL6W1X4VaxeihXjGAWsXooV4xgFrF6KFeMYBaxeihXjGAWsXooV4xgFrF6KFeMYBaxeihXjGAWsXooV4xgFrF6KFeMYBaxeihXjGAWsXooV4xgFrF6KFeMYBaxeihXjGAWsXooV4xgFrF6KFeMYBaxeihXjGAWsXooV4xgFrF6KFeMYBaxeihXjGAWsXooV4xgFrF6KFeMYBaxeihXjGAWsXooV4xgFrF6KFeMYBaxeihXjGAWsXooV4xgFrF6KF+dkGGf+L+LMw1fWxEG+Iq1CpGD/WzCzI0zxGYa/Yaf7QhrkKtYmzJxihm6CiGWZhn9if3ljeNWsXYko1RzIc2xE1hntljqRSjT5u7DD0zh8RF7nI0BfPMXl/5SCpqFWMLPbM/ff/mL0CZ48h5ZeWf8U2tYmyhZ/YiI0tPMN7C+EeurXz0JbWKsYWe2UWJTC1MBcaOA3Lj+Mps3mspvyMJqFeMjGycgdzkUYNxjzxafG3DlKBeMTLoO3LKz9ShtJdgvCOPYpGhM0SoV4wM+g6f8kOWyME4cYDf7FPIrwxdC/WKkUHfkefzXzl0EH5Afxwoc/Q6vrThytCjGC9Bbxy7kI45mBhn9IDa2JgVpxlGhl/zRM9mjGr+CjGOnnG+TTy9xALEo0As/PPDO7/GPPH7+PO4q3nkPLJtZjdKMS5B/6pHjd+VqXdI0bcZp5q/Roz413z0Of53Zegtag+9inENxvi0HfMBcugtM72KUYFxVr0QvFcOfdJLv2JUYJx4+7ryReEt86ld9jSMoRhVGGvFjaZbZ/ieRQbjKMYIjHdmOZZIETCWYozCmPFOZfbLMrfK8Hnql2A8xZiBceM1x+xX7FYmBD102z2DMRXjCIwfC/g7Hj3i6az8Vb1RGFsxVsA88WnsPQR5FoIs/Vh/C+MrxkqYL16cxm301W9t4/shS19HXIK5FONWMHdIEndNQ5SRG2RRGyLEYt30O6QvwbzxAjvmH82UvK03W4treTwxXoJriheu8S+yz13+s9JZ4e+vGLKHfVIM2cM+KYbsYZ8UQ/awT4ohe9gnxZA97JNiyB72STFkD/ukGLKHfVIM2cM+KYbsYZ8UQ/awT4ohe9gnxZA97NP9xSAxqTl3Zv9D1yExzJ8bxTBpFMOkUQyTRjFMGsUwaRTDpFEMk0YxTBrFMGkUw6RRDJNGMUyaZzGyT+XMX5037/8H6YSMkmdK7tkAAAAASUVORK5CYII=" InformativeScreenshot="ce46ae70ac816666c50d2112d363e09d.jpg" Selector="&lt;html app='msedge.exe' title='RPA and AI in Automation Training | UiPath' /&gt;" Title="RPA and AI in Automation Training | UiPath" Url="https://academy.uipath.com/" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+  </Sequence>
+</Activity>
